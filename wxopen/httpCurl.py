@@ -6,6 +6,8 @@ import time, datetime
 class httpCurl:
 
     def curls(self,url,data, method='GET'):
+        print(data)
+        return
         if(method == 'POST'):
             res = request(method,url,data=json.dumps(data))
         else:
