@@ -13,6 +13,7 @@ class httpCurl:
         # else:
         #     res = request(method, url)
         # return res
+        print(data)
         b = BytesIO()
         curl = pycurl.Curl()
         curl.setopt(pycurl.URL, url)
