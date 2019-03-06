@@ -15,7 +15,7 @@ data = {
             'keyword3':{'value':'python发送'},
         }
     }
-res = Wxkfpingtai.sendTemplate('19_EpajAbRpzQoIutm9QjLA9cdrQwxCdLt42xMBjEPvyJ_yZ0iGsILFAB0tsKLj0E1lPGo0Ur5UW106tfh0kvLpRxSSrYFzTzkTo_rgQHkjbfd-HaQMNBQ_ut2FO9Bib2PyAXjh8KFWuPLHrYT_OPMiAHDCDA',data)
+res = Wxkfpingtai.sendTemplate('19_WYRxyrEXgTEQxcl1mvmDZWd6zTsi6XFuFXuAMV8zgxRxx3VrqtH37KdTZm4XMXKhVn_8dY8RD6qLLENH-Axsl_gZhioIIwPLmRQwsuINbHMdWQBwIzkHosZ3JrAYi8HTWqZ2z80C7yhaUfwUMBXiAGDFUQ',data)
 #print(res)
 print(res.status_code)
 print(res.json())
