@@ -8,7 +8,7 @@ class httpCurl:
     def curls(self,url,data, method='GET'):
         if(method == 'POST'):
             li = json.dumps(data)
-            res = request(method,url,data=li)
+            res = request(method,url,json=li)
         else:
             res = request(method, url)
         return res
