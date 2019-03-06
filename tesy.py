@@ -15,7 +15,7 @@ data = {
             'keyword3':'pip 发送',
         }
     }
-res = Wxkfpingtai.sendTemplate('19_EpajAbRpzQoIutm9QjLA9cdrQwxCdLt42xMBjEPvyJ_yZ0iGsILFAB0tsKLj0E1lPGo0Ur5UW106tfh0kvLpRxSSrYFzTzkTo_rgQHkjbfd-HaQMNBQ_ut2FO9Bib2PyAXjh8KFWuPLHrYT_OPMiAHDCDA',json.dumps(data))
+res = Wxkfpingtai.sendTemplate('19_EpajAbRpzQoIutm9QjLA9cdrQwxCdLt42xMBjEPvyJ_yZ0iGsILFAB0tsKLj0E1lPGo0Ur5UW106tfh0kvLpRxSSrYFzTzkTo_rgQHkjbfd-HaQMNBQ_ut2FO9Bib2PyAXjh8KFWuPLHrYT_OPMiAHDCDA',data)
 print(res.status_code)
 print(res.json())
 #wexin.()
