@@ -6,8 +6,10 @@ import time, datetime
 class httpCurl:
 
     def curls(self,url,data = {}, method='GET'):
-
-        res = request(method,url,data=data)
+        if(method == 'POST'):
+            res = request(method,url,data=data)
+        else:
+            res = request(method, url)
         return res
         # b = BytesIO()
         # curl = pycurl.Curl()
