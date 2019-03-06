@@ -5,7 +5,7 @@ from io import *
 import time, datetime
 class httpCurl:
 
-    def curls(self,url,data = {}, method='GET'):
+    def curls(self,url,data, method='GET'):
         if(method == 'POST'):
             res = request(method,url,data=json.dumps(data))
         else:
