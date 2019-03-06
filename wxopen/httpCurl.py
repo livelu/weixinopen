@@ -7,7 +7,7 @@ class httpCurl:
 
     def curls(self,url,data = {}, method='GET'):
 
-        res = request(method,url,json=data)
+        res = request(method,url,data=data)
         return res
         # b = BytesIO()
         # curl = pycurl.Curl()
